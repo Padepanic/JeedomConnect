@@ -57,7 +57,7 @@ Il y a plusieurs champs  pré-remplis que vous pouvez modifier. Des espaces rés
 * **Adresse externe websocket** : Adresse websocket accessible depuis l'extérieur (nécessite une configuration de votre réseau)
 * **Adresse interne websocket** : Adresse websocket sur votre réseau local
 
-Si vous modifiez un de ces champs, il faudra bien sûr sauvegarder, puis re-générer les QR Code des équipements. En cas d'utilisation du HTTP, il faudra aussi redémarrer l'appli.
+Si vous modifiez un de ces champs, il faudra bien sûr sauvegarder, puis re-générer les QR Code des équipements. En cas d'utilisation du HTTP, il faudra aussi redémarrer l'application.
 
 ## Ajouter des équipements <a name="addEq"></a>
 Vous pouvez ajouter des équipements dans le plugin de façon standard.
@@ -66,21 +66,21 @@ Vous pouvez ajouter des équipements dans le plugin de façon standard.
 
 ![](../images/screen-eqConfig.png)
 
-A la création d'un équipement, une clé API, ainsi qu'un QR Code est automatiquement généré avec les informations de configuration du plugin. Lors du démarrage de l'application, vous pourrez alors entrer manuellement vos identifiants jeedom, ou bien scanner le QR Code. Une fois connecté, l'équipement et l'appareil sont liés. Pour vous connecter avec un autre appareil, il vous faut le *détacher*  en cliquant sur le bouton associé.
+A la création d'un équipement, une clé API, ainsi qu'un QR Code est automatiquement généré avec les informations de configuration du plugin. Lors du démarrage de l'application, vous pourrez alors entrer manuellement vos identifiants Jeedom, ou bien scanner le QR Code. Une fois connecté, l'équipement et l'appareil sont liés. Pour vous connecter avec un autre appareil, il vous faut le *détacher*  en cliquant sur le bouton associé.
 
-La configuration d'un équipement consiste en un fichier JSON configurable avec l'assistant, et que vous pouvez exporter / importer. Si vous voulez par exemple cloner un équipement, ajoutez en un nouveau et utiliser l'exportation / importation.
+La configuration d'un équipement est basée sur un fichier JSON configurable avec l'assistant, et que vous pouvez exporter / importer. Si vous voulez par exemple cloner un équipement, ajoutez en un nouveau et utiliser l'exportation / importation.
 
 ## Configuration d'un équipement <a name="configureEq"></a>
 La configuration du contenu de l'application se passe dans l'assistant.
 
  ![](../images/screen-assistantBottom.png)
 
-Le changement de configuration a lieu à chaque click sur le bouton *Sauvegarder*. Si l'application est démarrée, elle est automatiquement transférée (websocket uniquement). Vous pouvez recharger la configuration dans l'appli en appuyant sur le logo du 'menu hamburger'.  
-Si vous pensé avoir une erreur avant d'avoir sauvegarder (par exemple supprimé un élément par erreur), actualisez simplement la page. Le bouton *Réinitialiser* (suivi de *Sauvegarder*) remet toute la configuration à zéro, attention donc !
+Le changement de configuration a lieu à chaque click sur le bouton *Sauvegarder*. Si l'application est démarrée, elle est automatiquement transférée (websocket uniquement). Vous pouvez recharger la configuration dans l'application en appuyant sur le logo du 'menu hamburger'.  
+Si vous pensez avoir une erreur avant d'avoir sauvegardé (par exemple supprimé un élément par erreur), actualisez simplement la page. Le bouton *Réinitialiser* (suivi de *Sauvegarder*) remet toute la configuration à zéro, attention donc !
 
 * ### Menu du bas
-Cette partie est assez explicite, elle permet de configurer les onglets qui apparaissent en bas de l'écran. Le coix des icône se fait sur https://materialdesignicons.com/ (un moteur de recherche est intégré).  
-Vous pouvez choisir de ne configurer cette partie si vous ne voulez pas de navigation par ces onglets.
+Cette partie est assez explicite, elle permet de configurer les onglets qui apparaissent en bas de l'écran. Le choix des icônes se fait sur https://materialdesignicons.com/ (un moteur de recherche est intégré).  
+Vous pouvez choisir de ne pas configurer cette partie si vous ne voulez pas de navigation par ces onglets.
 
 * ### Menu du haut
  ![](../images/screen-assistantTop.png)
