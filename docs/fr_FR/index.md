@@ -49,7 +49,7 @@ Il s'installe depuis le market comme les autres. La version beta contient les no
 
 
 ## Configuration du plugin <a name="configurePlugin"></a>
-Il y a plusieurs champs  pré-remplis que vous pouvez modifier. Des placeholder sont indiqués sur chacun d'entre eux. S'ils vous semblent corrects, inutile de les modifier.
+Il y a plusieurs champs  pré-remplis que vous pouvez modifier. Des espaces réservés (placeholder) sont indiqués sur chacun d'entre eux. S'ils vous semblent corrects, inutile de les modifier.
 * **Adresse http externe** : Indiquez ici votre adresse d'accès à Jeedom depuis l'extérieur de votre domicile.
 * **Adresse http interne** : Adresse de Jeedom sur votre réseau local.
 * **Activer la connexion par Websocket** : Indiquera à l'application si vous préférez utiliser le protocole Websocket pour la communication avec vos appareils. Notez tout de même que l'adresse HTTP est nécessaire au bon fonctionement de certains services (images persos, géolocalisation, actions sur notifications)
