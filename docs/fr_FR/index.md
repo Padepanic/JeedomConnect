@@ -26,7 +26,7 @@ Le plugin, ainsi que l'application sont complètement **gratuit** et le resteron
 ## Fonctionnalités <a name="fonctionalites"></a>
 - Affichage et gestion de vos équipements domotiques et des scénarios
 - Historiques sous forme de graphique ou tableau
-- Possibilité de sécuriser toutes les action avec données biométriques
+- Possibilité de sécuriser toutes les actions avec données biométriques
 - Personalisation poussée de l'interface
 - Notifications Push enrichies compatibles avec Ask
 - [Géolocalisation](#geoloc) avec gestion avancée de la batterie
